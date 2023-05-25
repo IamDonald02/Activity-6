@@ -1,0 +1,11 @@
+Id,Product,Category,Price,Quantity
+1,Cappuccino,Coffee,60,30
+2,Latte,Coffee,69,30
+3,Espresso,Coffee,100,30
+4,Amerikano,Coffee,80,30
+5,Macchiato,Coffee,50,30
+6,Bagel,Bread,30,30
+7,Ensaimada,Bread,25,30
+8,Baguette,Bread,50,30
+9,Brioche,Bread,45,30
+10,Pita,Bread,40,30
