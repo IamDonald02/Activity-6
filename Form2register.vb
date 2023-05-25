@@ -100,4 +100,8 @@ Public Class Form2Register
     Private Sub enter_password_TextChanged(sender As Object, e As EventArgs) Handles confirm_password.TextChanged
 
     End Sub
+
+    Private Sub Guna2CircleButton1_Click(sender As Object, e As EventArgs) Handles Guna2CircleButton1.Click
+
+    End Sub
 End Class

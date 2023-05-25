@@ -39,13 +39,13 @@ Partial Class Form3dashbord
         Me.pc_coffeeblends = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2DragControl1 = New Guna.UI2.WinForms.Guna2DragControl(Me.components)
         Me.DragControl2 = New Guna.UI2.WinForms.Guna2DragControl(Me.components)
-        Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
-        Me.SalesButton2 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button6 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.homeButton = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.logout_Button = New Guna.UI2.WinForms.Guna2Button()
+        Me.order_Button = New Guna.UI2.WinForms.Guna2Button()
+        Me.sales_Button = New Guna.UI2.WinForms.Guna2Button()
+        Me.productInventory_Button = New Guna.UI2.WinForms.Guna2Button()
+        Me.profile_Button = New Guna.UI2.WinForms.Guna2Button()
         Me.topPanel2.SuspendLayout()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -53,7 +53,7 @@ Partial Class Form3dashbord
         CType(Me.Guna2PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pc_coffeeblends, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Guna2Panel1.SuspendLayout()
+        Me.Guna2Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Guna2Elipse3
@@ -198,157 +198,157 @@ Partial Class Form3dashbord
         Me.DragControl2.TargetControl = Me.topPanel2
         Me.DragControl2.UseTransparentDrag = True
         '
-        'Guna2Button1
+        'homeButton
         '
-        Me.Guna2Button1.Animated = True
-        Me.Guna2Button1.AutoRoundedCorners = True
-        Me.Guna2Button1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Button1.BorderRadius = 18
-        Me.Guna2Button1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
-        Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button1.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button1.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button1.Image = CType(resources.GetObject("Guna2Button1.Image"), System.Drawing.Image)
-        Me.Guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button1.Location = New System.Drawing.Point(22, 48)
-        Me.Guna2Button1.Name = "Guna2Button1"
-        Me.Guna2Button1.Size = New System.Drawing.Size(140, 39)
-        Me.Guna2Button1.TabIndex = 3
-        Me.Guna2Button1.UseTransparentBackground = True
+        Me.homeButton.Animated = True
+        Me.homeButton.AutoRoundedCorners = True
+        Me.homeButton.BackColor = System.Drawing.Color.Transparent
+        Me.homeButton.BorderRadius = 18
+        Me.homeButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
+        Me.homeButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.homeButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.homeButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.homeButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.homeButton.FillColor = System.Drawing.Color.Transparent
+        Me.homeButton.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.homeButton.ForeColor = System.Drawing.Color.White
+        Me.homeButton.Image = CType(resources.GetObject("homeButton.Image"), System.Drawing.Image)
+        Me.homeButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.homeButton.Location = New System.Drawing.Point(23, 48)
+        Me.homeButton.Name = "homeButton"
+        Me.homeButton.Size = New System.Drawing.Size(140, 39)
+        Me.homeButton.TabIndex = 4
+        Me.homeButton.UseTransparentBackground = True
         '
-        'SalesButton2
+        'Guna2Panel2
         '
-        Me.SalesButton2.Animated = True
-        Me.SalesButton2.AutoRoundedCorners = True
-        Me.SalesButton2.BackColor = System.Drawing.Color.Transparent
-        Me.SalesButton2.BorderRadius = 18
-        Me.SalesButton2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
-        Me.SalesButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.SalesButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.SalesButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.SalesButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.SalesButton2.FillColor = System.Drawing.Color.Transparent
-        Me.SalesButton2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.SalesButton2.ForeColor = System.Drawing.Color.White
-        Me.SalesButton2.Image = CType(resources.GetObject("SalesButton2.Image"), System.Drawing.Image)
-        Me.SalesButton2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.SalesButton2.Location = New System.Drawing.Point(22, 264)
-        Me.SalesButton2.Name = "SalesButton2"
-        Me.SalesButton2.Size = New System.Drawing.Size(140, 39)
-        Me.SalesButton2.TabIndex = 3
-        Me.SalesButton2.UseTransparentBackground = True
+        Me.Guna2Panel2.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel2.BorderColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel2.BorderRadius = 20
+        Me.Guna2Panel2.Controls.Add(Me.logout_Button)
+        Me.Guna2Panel2.Controls.Add(Me.order_Button)
+        Me.Guna2Panel2.Controls.Add(Me.sales_Button)
+        Me.Guna2Panel2.Controls.Add(Me.productInventory_Button)
+        Me.Guna2Panel2.Controls.Add(Me.profile_Button)
+        Me.Guna2Panel2.Controls.Add(Me.homeButton)
+        Me.Guna2Panel2.FillColor = System.Drawing.Color.FromArgb(CType(CType(250, Byte), Integer), CType(CType(234, Byte), Integer), CType(CType(177, Byte), Integer))
+        Me.Guna2Panel2.Location = New System.Drawing.Point(32, 36)
+        Me.Guna2Panel2.Name = "Guna2Panel2"
+        Me.Guna2Panel2.ShadowDecoration.Color = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(231, Byte), Integer))
+        Me.Guna2Panel2.ShadowDecoration.Enabled = True
+        Me.Guna2Panel2.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 5, 5)
+        Me.Guna2Panel2.Size = New System.Drawing.Size(87, 484)
+        Me.Guna2Panel2.TabIndex = 4
         '
-        'Guna2Button4
+        'logout_Button
         '
-        Me.Guna2Button4.Animated = True
-        Me.Guna2Button4.AutoRoundedCorners = True
-        Me.Guna2Button4.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Button4.BorderRadius = 18
-        Me.Guna2Button4.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
-        Me.Guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button4.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button4.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button4.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button4.Image = CType(resources.GetObject("Guna2Button4.Image"), System.Drawing.Image)
-        Me.Guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button4.Location = New System.Drawing.Point(22, 194)
-        Me.Guna2Button4.Name = "Guna2Button4"
-        Me.Guna2Button4.Size = New System.Drawing.Size(140, 39)
-        Me.Guna2Button4.TabIndex = 3
-        Me.Guna2Button4.UseTransparentBackground = True
+        Me.logout_Button.Animated = True
+        Me.logout_Button.AutoRoundedCorners = True
+        Me.logout_Button.BackColor = System.Drawing.Color.Transparent
+        Me.logout_Button.BorderRadius = 18
+        Me.logout_Button.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
+        Me.logout_Button.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.logout_Button.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.logout_Button.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.logout_Button.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.logout_Button.FillColor = System.Drawing.Color.Transparent
+        Me.logout_Button.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.logout_Button.ForeColor = System.Drawing.Color.White
+        Me.logout_Button.Image = CType(resources.GetObject("logout_Button.Image"), System.Drawing.Image)
+        Me.logout_Button.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.logout_Button.Location = New System.Drawing.Point(25, 404)
+        Me.logout_Button.Name = "logout_Button"
+        Me.logout_Button.Size = New System.Drawing.Size(140, 39)
+        Me.logout_Button.TabIndex = 4
+        Me.logout_Button.UseTransparentBackground = True
         '
-        'Guna2Button3
+        'order_Button
         '
-        Me.Guna2Button3.Animated = True
-        Me.Guna2Button3.AutoRoundedCorners = True
-        Me.Guna2Button3.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Button3.BorderRadius = 18
-        Me.Guna2Button3.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
-        Me.Guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button3.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button3.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button3.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button3.Image = CType(resources.GetObject("Guna2Button3.Image"), System.Drawing.Image)
-        Me.Guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button3.Location = New System.Drawing.Point(22, 125)
-        Me.Guna2Button3.Name = "Guna2Button3"
-        Me.Guna2Button3.Size = New System.Drawing.Size(140, 39)
-        Me.Guna2Button3.TabIndex = 3
-        Me.Guna2Button3.UseTransparentBackground = True
+        Me.order_Button.Animated = True
+        Me.order_Button.AutoRoundedCorners = True
+        Me.order_Button.BackColor = System.Drawing.Color.Transparent
+        Me.order_Button.BorderRadius = 18
+        Me.order_Button.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
+        Me.order_Button.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.order_Button.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.order_Button.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.order_Button.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.order_Button.FillColor = System.Drawing.Color.Transparent
+        Me.order_Button.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.order_Button.ForeColor = System.Drawing.Color.White
+        Me.order_Button.Image = CType(resources.GetObject("order_Button.Image"), System.Drawing.Image)
+        Me.order_Button.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.order_Button.Location = New System.Drawing.Point(25, 331)
+        Me.order_Button.Name = "order_Button"
+        Me.order_Button.Size = New System.Drawing.Size(140, 39)
+        Me.order_Button.TabIndex = 4
+        Me.order_Button.UseTransparentBackground = True
         '
-        'Guna2Button6
+        'sales_Button
         '
-        Me.Guna2Button6.Animated = True
-        Me.Guna2Button6.AutoRoundedCorners = True
-        Me.Guna2Button6.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Button6.BorderRadius = 18
-        Me.Guna2Button6.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
-        Me.Guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button6.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button6.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button6.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button6.Image = CType(resources.GetObject("Guna2Button6.Image"), System.Drawing.Image)
-        Me.Guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button6.Location = New System.Drawing.Point(22, 404)
-        Me.Guna2Button6.Name = "Guna2Button6"
-        Me.Guna2Button6.Size = New System.Drawing.Size(140, 39)
-        Me.Guna2Button6.TabIndex = 3
-        Me.Guna2Button6.UseTransparentBackground = True
+        Me.sales_Button.Animated = True
+        Me.sales_Button.AutoRoundedCorners = True
+        Me.sales_Button.BackColor = System.Drawing.Color.Transparent
+        Me.sales_Button.BorderRadius = 18
+        Me.sales_Button.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
+        Me.sales_Button.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.sales_Button.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.sales_Button.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.sales_Button.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.sales_Button.FillColor = System.Drawing.Color.Transparent
+        Me.sales_Button.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.sales_Button.ForeColor = System.Drawing.Color.White
+        Me.sales_Button.Image = CType(resources.GetObject("sales_Button.Image"), System.Drawing.Image)
+        Me.sales_Button.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.sales_Button.Location = New System.Drawing.Point(25, 264)
+        Me.sales_Button.Name = "sales_Button"
+        Me.sales_Button.Size = New System.Drawing.Size(140, 39)
+        Me.sales_Button.TabIndex = 4
+        Me.sales_Button.UseTransparentBackground = True
         '
-        'Guna2Button5
+        'productInventory_Button
         '
-        Me.Guna2Button5.Animated = True
-        Me.Guna2Button5.AutoRoundedCorners = True
-        Me.Guna2Button5.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Button5.BorderRadius = 18
-        Me.Guna2Button5.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
-        Me.Guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button5.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button5.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button5.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button5.Image = CType(resources.GetObject("Guna2Button5.Image"), System.Drawing.Image)
-        Me.Guna2Button5.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button5.Location = New System.Drawing.Point(22, 331)
-        Me.Guna2Button5.Name = "Guna2Button5"
-        Me.Guna2Button5.Size = New System.Drawing.Size(140, 39)
-        Me.Guna2Button5.TabIndex = 3
-        Me.Guna2Button5.UseTransparentBackground = True
+        Me.productInventory_Button.Animated = True
+        Me.productInventory_Button.AutoRoundedCorners = True
+        Me.productInventory_Button.BackColor = System.Drawing.Color.Transparent
+        Me.productInventory_Button.BorderRadius = 18
+        Me.productInventory_Button.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
+        Me.productInventory_Button.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.productInventory_Button.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.productInventory_Button.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.productInventory_Button.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.productInventory_Button.FillColor = System.Drawing.Color.Transparent
+        Me.productInventory_Button.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.productInventory_Button.ForeColor = System.Drawing.Color.White
+        Me.productInventory_Button.Image = CType(resources.GetObject("productInventory_Button.Image"), System.Drawing.Image)
+        Me.productInventory_Button.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.productInventory_Button.Location = New System.Drawing.Point(23, 194)
+        Me.productInventory_Button.Name = "productInventory_Button"
+        Me.productInventory_Button.Size = New System.Drawing.Size(140, 39)
+        Me.productInventory_Button.TabIndex = 4
+        Me.productInventory_Button.UseTransparentBackground = True
         '
-        'Guna2Panel1
+        'profile_Button
         '
-        Me.Guna2Panel1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Panel1.BorderColor = System.Drawing.Color.Transparent
-        Me.Guna2Panel1.BorderRadius = 20
-        Me.Guna2Panel1.Controls.Add(Me.Guna2Button5)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2Button6)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2Button3)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2Button4)
-        Me.Guna2Panel1.Controls.Add(Me.SalesButton2)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2Button1)
-        Me.Guna2Panel1.FillColor = System.Drawing.Color.FromArgb(CType(CType(250, Byte), Integer), CType(CType(234, Byte), Integer), CType(CType(177, Byte), Integer))
-        Me.Guna2Panel1.Location = New System.Drawing.Point(37, 36)
-        Me.Guna2Panel1.Name = "Guna2Panel1"
-        Me.Guna2Panel1.ShadowDecoration.Color = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(231, Byte), Integer))
-        Me.Guna2Panel1.ShadowDecoration.Enabled = True
-        Me.Guna2Panel1.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 5, 5)
-        Me.Guna2Panel1.Size = New System.Drawing.Size(87, 484)
-        Me.Guna2Panel1.TabIndex = 2
+        Me.profile_Button.Animated = True
+        Me.profile_Button.AutoRoundedCorners = True
+        Me.profile_Button.BackColor = System.Drawing.Color.Transparent
+        Me.profile_Button.BorderRadius = 18
+        Me.profile_Button.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
+        Me.profile_Button.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.profile_Button.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.profile_Button.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.profile_Button.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.profile_Button.FillColor = System.Drawing.Color.Transparent
+        Me.profile_Button.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.profile_Button.ForeColor = System.Drawing.Color.White
+        Me.profile_Button.Image = CType(resources.GetObject("profile_Button.Image"), System.Drawing.Image)
+        Me.profile_Button.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.profile_Button.Location = New System.Drawing.Point(23, 125)
+        Me.profile_Button.Name = "profile_Button"
+        Me.profile_Button.Size = New System.Drawing.Size(140, 39)
+        Me.profile_Button.TabIndex = 4
+        Me.profile_Button.UseTransparentBackground = True
         '
         'Form3dashbord
         '
@@ -356,6 +356,7 @@ Partial Class Form3dashbord
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(840, 550)
+        Me.Controls.Add(Me.Guna2Panel2)
         Me.Controls.Add(Me.pc_coffeeblends)
         Me.Controls.Add(Me.Guna2PictureBox4)
         Me.Controls.Add(Me.Guna2PictureBox3)
@@ -363,8 +364,8 @@ Partial Class Form3dashbord
         Me.Controls.Add(Me.Guna2PictureBox5)
         Me.Controls.Add(Me.Guna2PictureBox1)
         Me.Controls.Add(Me.topPanel2)
-        Me.Controls.Add(Me.Guna2Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form3dashbord"
         Me.Text = " "
         Me.topPanel2.ResumeLayout(False)
@@ -374,7 +375,7 @@ Partial Class Form3dashbord
         CType(Me.Guna2PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pc_coffeeblends, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Guna2Panel1.ResumeLayout(False)
+        Me.Guna2Panel2.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -394,11 +395,11 @@ Partial Class Form3dashbord
     Friend WithEvents pc_coffeeblends As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents Guna2DragControl1 As Guna.UI2.WinForms.Guna2DragControl
     Friend WithEvents DragControl2 As Guna.UI2.WinForms.Guna2DragControl
-    Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2Button5 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button6 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button3 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button4 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents SalesButton2 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents homeButton As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents profile_Button As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents sales_Button As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents productInventory_Button As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents logout_Button As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents order_Button As Guna.UI2.WinForms.Guna2Button
 End Class

@@ -50,6 +50,7 @@ Partial Class Form1login
         Me.Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.UserManualButton = New Guna.UI2.WinForms.Guna2Button()
         CType(Me.bgPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.loginPanel1.SuspendLayout()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -146,7 +147,7 @@ Partial Class Form1login
         Me.registerButton.Font = New System.Drawing.Font("Comic Sans MS", 9.0!)
         Me.registerButton.ForeColor = System.Drawing.SystemColors.GrayText
         Me.registerButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right
-        Me.registerButton.Location = New System.Drawing.Point(483, 501)
+        Me.registerButton.Location = New System.Drawing.Point(481, 493)
         Me.registerButton.Name = "registerButton"
         Me.registerButton.PressedColor = System.Drawing.Color.Transparent
         Me.registerButton.Size = New System.Drawing.Size(274, 37)
@@ -186,7 +187,7 @@ Partial Class Form1login
         Me.forgotpassButton.PressedColor = System.Drawing.Color.Transparent
         Me.forgotpassButton.Size = New System.Drawing.Size(274, 20)
         Me.forgotpassButton.TabIndex = 6
-        Me.forgotpassButton.Text = "Forgot Username or Password ?"
+        Me.forgotpassButton.Text = "Forgot Password ?"
         '
         'password
         '
@@ -409,11 +410,32 @@ Partial Class Form1login
         Me.Guna2PictureBox1.TabStop = False
         Me.Guna2PictureBox1.UseTransparentBackground = True
         '
+        'UserManualButton
+        '
+        Me.UserManualButton.Animated = True
+        Me.UserManualButton.AutoRoundedCorners = True
+        Me.UserManualButton.BorderRadius = 9
+        Me.UserManualButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.UserManualButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.UserManualButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.UserManualButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.UserManualButton.FillColor = System.Drawing.Color.Transparent
+        Me.UserManualButton.Font = New System.Drawing.Font("Comic Sans MS", 9.0!)
+        Me.UserManualButton.ForeColor = System.Drawing.SystemColors.ButtonShadow
+        Me.UserManualButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.UserManualButton.Location = New System.Drawing.Point(653, 338)
+        Me.UserManualButton.Name = "UserManualButton"
+        Me.UserManualButton.PressedColor = System.Drawing.Color.Transparent
+        Me.UserManualButton.Size = New System.Drawing.Size(102, 20)
+        Me.UserManualButton.TabIndex = 18
+        Me.UserManualButton.Text = "User Manual"
+        '
         'Form1login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(840, 550)
+        Me.Controls.Add(Me.UserManualButton)
         Me.Controls.Add(Me.Guna2PictureBox1)
         Me.Controls.Add(Me.bgPictureBox)
         Me.Controls.Add(Me.Guna2HtmlLabel1)
@@ -471,4 +493,5 @@ Partial Class Form1login
     Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents bgPictureBox As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents Guna2PictureBox1 As Guna.UI2.WinForms.Guna2PictureBox
+    Friend WithEvents UserManualButton As Guna.UI2.WinForms.Guna2Button
 End Class

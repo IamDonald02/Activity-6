@@ -81,4 +81,20 @@ Public Class Form1login
     Private Sub bgPictureBox_Click(sender As Object, e As EventArgs) Handles bgPictureBox.Click
 
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub UserManualButton_Click(sender As Object, e As EventArgs) Handles UserManualButton.Click
+        Try
+            Dim userManualFilePath As String = "C:\Users\user\Desktop\UserManual.pdf" ' Replace with the actual file path of the user manual
+
+            ' Open the user manual file using the default application associated with PDF files
+            System.Diagnostics.Process.Start(userManualFilePath)
+        Catch ex As Exception
+            MessageBox.Show("Error opening user manual: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
+    End Sub
+
 End Class
